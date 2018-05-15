@@ -47,7 +47,7 @@ header h1{
 
 	/* Write a declaration (property: value;) below this comment to set the font size of this h1 ("A Beekeeping Resource") using a percent. The exact percent is not provided for you in the screenshot. Try to match the size visually. */
 
-	font-size: 14px;
+	font-size: 100%;
 
 	/* Write a declaration (property: value;) below this comment to set the font color using a hex code. You will need to use Photoshop to eyedrop this color from the screenshot. */
 	color: #856d25;
@@ -62,11 +62,6 @@ header h1{
 
 }
 
-
-
-
-
-
 /*==============Main Navigation============*/
 
 /* The following two rules effect only the <ul>s and <li>'s in the <nav>. The selector "nav ul" would be read, "Find all nav tags, then find any children that are <ul>s, and select them." These are more specific so that other list on the page won't be styled the same */
@@ -75,7 +70,7 @@ nav ul {
 
 	/* Write a declaration (property: value;) below this comment to change the background color of this <ul> using a hex color. You will need to use Photoshop to eyedrop this color from the screenshot. */
 	
-	
+	background-color: red;
 	
 	width: 20px;
 	
@@ -89,7 +84,7 @@ nav li{
 
 	/* Write a declaration (property: value;) below this comment to change the background color of the <li>s using an rgba color. You will need to use Photoshop to eyedrop this color from the screenshot. This might not be exactly the same color since there is an opacity. */
 	
-	
+	background-color: rgba(151,130,65, 1);
 	
 	width: 220px;
 	
