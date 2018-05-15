@@ -89,7 +89,7 @@
 
 /*The following three rules should use more advanced selectors. The exact selector type is outlined below.*/
 	/*Use a Child selector for the following (see page 238 for more information about Child Selectors). This rule will change the links text color.*/
-    #harvesting:nth-child(1)
+    nav ul:nth-child()
 	{
 		color: red;
 	}
