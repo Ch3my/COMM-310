@@ -47,7 +47,7 @@ header h1{
 
 	/* Write a declaration (property: value;) below this comment to set the font size of this h1 ("A Beekeeping Resource") using a percent. The exact percent is not provided for you in the screenshot. Try to match the size visually. */
 
-	font-size: 100%;
+	font-size: 150%;
 
 	/* Write a declaration (property: value;) below this comment to set the font color using a hex code. You will need to use Photoshop to eyedrop this color from the screenshot. */
 	color: #856d25;
@@ -70,7 +70,7 @@ nav ul {
 
 	/* Write a declaration (property: value;) below this comment to change the background color of this <ul> using a hex color. You will need to use Photoshop to eyedrop this color from the screenshot. */
 	
-	background-color: red;
+	background-color: #f2cc0f;
 	
 	width: 20px;
 	
@@ -109,8 +109,14 @@ nav li{
 
 nav ul li a {
 	color: #fffab2;
+	font-weight: bolder;
 }
-
+nav ul li a:hover {
+	color: #efc718;
+}
+nav ul li a:active {
+	color: #fff8f7;
+}
 
 
 
@@ -125,15 +131,17 @@ nav ul li a {
 /*use the screenshot to make the appropriate changes to these elements*/
 
 h2{
-
+	font-size: 14px;
+	font-style: italic;
 }
 
 section h2{
-
+	font-size: 20px;
+	font-style: normal;
 }
 
 footer{
-
+	text-align: center;
 }
 
 
