@@ -89,13 +89,13 @@
 
 /*The following three rules should use more advanced selectors. The exact selector type is outlined below.*/
 	/*Use a Child selector for the following (see page 238 for more information about Child Selectors). This rule will change the links text color.*/
-    nav ul li:nth-child
+    nav ul li:nth-child(n)
 	{
 		color: red;
 	}
 
 	/*Use an Adjacent sibling selector for the following. The adjacent sibling selector matches an element that is the next sibling of another.*/
-	section + p{
+	section h1 + p {
 
 		padding-left: 20px;
 
