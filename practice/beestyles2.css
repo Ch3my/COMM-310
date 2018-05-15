@@ -55,7 +55,7 @@ header h1{
 
 	/* Write a declaration (property: value;) below this comment to set the letter spacing of this h1 ("A Beekeeping Resource") using EMs. The exact spacing is not provided for you in the screenshot. Try to match the spacing visually. */
 
-	letter-spacing: 2px;
+	letter-spacing: 1em;
 
 
 
@@ -110,6 +110,7 @@ nav li{
 nav ul li a {
 	color: #fffab2;
 	font-weight: bolder;
+	text-decoration: none;
 }
 nav ul li a:hover {
 	color: #efc718;
