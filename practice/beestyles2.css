@@ -107,7 +107,9 @@ nav li{
 
 /* You will need to style your links using the colors defined in the screenshot. Use hex codes for all of these link colors. You will need to make sure that the other links on this page don't also get styled the same. This will work very similar to how the main navigation selectors work above. You need to be specific. */
 
-
+nav ul li a {
+	color: #fffab2;
+}
 
 
 
