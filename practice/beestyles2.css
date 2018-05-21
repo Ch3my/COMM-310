@@ -107,7 +107,6 @@ main {
 	border: 2px solid #99883a;
 	border-bottom-color: #aa974a;
 	padding: 30px;
-	margin-bottom: 20px;
 }
 h2 {
 	color: #b29c50;
@@ -176,6 +175,9 @@ footer{
 	background-color: #aa974a;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	color: #f9fac1;
 }
 footer nav ul {
 	background-color: initial;
@@ -188,5 +190,10 @@ footer li {
 	background-color:initial;
 	padding: 0;
 	margin: 0;
+	padding-right: 15px;
+}
+footer a {
+	font-weight: bold;
+	text-decoration: underline;
 }
 
