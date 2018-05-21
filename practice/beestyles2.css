@@ -112,20 +112,23 @@ main {
 }
 h2 {
 	color: #b29c50;
-	width: 55px;
-	border-radius: 20px;
+	width: 5em;
+	border-radius: 30px;
 	border-bottom-right-radius: 0;
 	background-color: #fffeff;
 	border: 1px solid #bab484;
-
+	padding: 10px;
+	margin: 0;
 }
 section {
 	background-color:#fafcca;
 	border: 1px solid#ad9652;
 	padding: 30px;
-	margin-top:20px;
+	margin-top:40px;
 }
-
+section > h2 {
+	color:red;
+}
 
 /*==============LINK STYLE============*/
 
