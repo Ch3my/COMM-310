@@ -126,8 +126,12 @@ section {
 	padding: 30px;
 	margin-top:40px;
 }
-section > h2 {
-	color:red;
+#bees-h2 {
+	width: 3em;
+}
+#blossoms {
+	height: 500px;
+	overflow: scroll;
 }
 
 /*==============LINK STYLE============*/
@@ -172,5 +176,10 @@ footer{
 	text-align: center;
 	background-color: #aa974a;
 }
-
+footer nav ul {
+	background-color: initial;
+}
+footer li {
+	display: inline;
+}
 
