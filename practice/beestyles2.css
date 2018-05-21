@@ -177,8 +177,11 @@ footer{
 }
 footer nav ul {
 	background-color: initial;
+	display: inline;
+    border: none;
 }
 footer li {
 	display: inline;
+	box-shadow: none;
 }
 
