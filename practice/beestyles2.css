@@ -106,9 +106,6 @@ main {
 	background-color: #f8d90c;
 	border: 2px solid #99883a;
 	padding: 30px;
-	border-bottom-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-
 }
 h2 {
 	color: #b29c50;
@@ -175,6 +172,8 @@ section h2{
 footer{
 	text-align: center;
 	background-color: #aa974a;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 footer nav ul {
 	background-color: initial;
