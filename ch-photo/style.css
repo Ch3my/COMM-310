@@ -188,7 +188,7 @@ footer a:active{
 }
 @media (max-width: 600px) { 
 	figure img:nth-child(2){
-		margin: 0!important;
+		margin: 0;
 	}
 	#header-txt-1 {
 		left:10px;
@@ -200,6 +200,6 @@ footer a:active{
 		width: 63%;
 	}
 	footer a {
-		margin: 0;
+		margin: 0!important;
 	}
 }
