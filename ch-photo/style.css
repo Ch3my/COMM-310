@@ -102,6 +102,12 @@ article {
 figure{
 	text-align: center;
 }
+figure img {
+	transition: zoom 1s 
+}
+figure img:hover {
+	zoom: 1.1;
+}
 figure img:nth-child(2){
 	margin: 0 20px;
 }
