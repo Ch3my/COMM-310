@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Enriqueta|Overlock');
+
+body{
+	font-family: 'Enriqueta', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Overlock', cursive;
+	color: #37B4B4;
+	font-weight: bolder;
+}
+
 /* -------------------------------------------------- */
 /* --------- Navigation: Main & Secondary ----------- */
 /* -------------------------------------------------- */
