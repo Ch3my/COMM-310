@@ -84,12 +84,13 @@ nav img {
 	color: white;
 	left: 100px;
 	text-shadow: 2px 0px 4px rgba(150, 150, 150, 1);
-	font-size: 20px;
+	font-size: 30px;
 }  
 #header-txt-1 {
-	left: 100px;
+	top:70px;
 }
-#header-txt-1 {
+#header-txt-2 {
+	top:185px;
 }
 
 /* -------------------------------------------------- */
