@@ -192,10 +192,14 @@ footer a:active{
 	}
 	#header-txt-1 {
 		left:10px;
-		top:10px;
+		top:55px;
 	}
 	#header-txt-2 {
 		left:10px;
-		top:35px;
+		top:165px;
+		width: 63%;
+	}
+	footer a {
+		margin: 0;
 	}
 }
