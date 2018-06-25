@@ -80,7 +80,12 @@ nav img {
 .wrap span {
 	background-color: #ffe245;
 	padding: 20px;
+	position: absolute
 }  
+#header-txt-1 {
+}
+#header-txt-1 {
+}
 
 /* -------------------------------------------------- */
 /* ---------            Footer               ----------- */
