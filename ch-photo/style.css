@@ -132,6 +132,28 @@ footer a {
 	text-shadow: 2px 0px 4px rgba(150, 150, 150, 1);
 
 }
+footer a:link{
+	color: white;
+	text-decoration:none;
+	margin: 0 20px;
+	font-size: 1em;
+	transition: font-size .5s;
+	/* other styles */
+}
+footer a:visited{
+	color: white;
+	/* other styles */
+}
+footer a:hover{
+	color: white;
+	font-size: 1.4em;
+	/* other styles */
+}
+footer a:active{
+	color: black;
+	font-size: 1.4em;
+	/* other styles */
+}
 
 
 /*  SECTIONS  */
