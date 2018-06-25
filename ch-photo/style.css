@@ -19,13 +19,15 @@ h1,h2,h3,h4,h5,h6{
 /* Main Navigation Style */
 nav img {
 	position: absolute;
+	left: 70px;
+	top: 10px;
 
 }
 
 #mainnav{
 	background-color: #53C6C6;
 	padding: 10px;
-	text-align: right;
+	margin-left: 100px;
 }
 #mainnav ul{
 	list-style: none;
