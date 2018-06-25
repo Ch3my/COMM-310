@@ -30,6 +30,8 @@ nav img {
 	background-color: #53C6C6;
 	padding: 10px;
 	padding-left: 200px;
+	text-shadow: 2px 0px 4px rgba(150, 150, 150, 1);
+
 }
 #mainnav ul{
 	list-style: none;
