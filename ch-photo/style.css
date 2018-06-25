@@ -102,7 +102,7 @@ nav ul {
 }
 article {
 	text-align: center;
-	font-size: 20px;
+	font-size: 24px;
 }
 figure{
 	text-align: center;
@@ -185,4 +185,17 @@ footer a:active{
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+@media (max-width: 600px) { 
+	figure img:nth-child(2){
+		margin: 0;
+	}
+	#header-txt-1 {
+		left:10px;
+		top:10px;
+	}
+	#header-txt-2 {
+		left:10px;
+		top:35px;
+	}
 }
