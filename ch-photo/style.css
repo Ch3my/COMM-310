@@ -10,6 +10,9 @@ h1,h2,h3,h4,h5,h6{
 	color: #37B4B4;
 	font-weight: bolder;
 }
+.overlock {
+	font-family: 'Overlock', cursive;
+}
 
 /* -------------------------------------------------- */
 /* --------- Navigation: Main & Secondary ----------- */
