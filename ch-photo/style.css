@@ -25,6 +25,9 @@ nav img {
 	left: 70px;
 	top: 10px;
 }
+nav ul {
+	margin: 0 0 10px 0; 
+}
 
 #mainnav{
 	background-color: #53C6C6;
@@ -125,6 +128,9 @@ footer {
 }
 footer a {
 	text-decoration: none;
+	color:white;
+	text-shadow: 2px 0px 4px rgba(150, 150, 150, 1);
+
 }
 
 
