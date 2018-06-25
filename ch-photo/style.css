@@ -72,7 +72,7 @@ nav img {
 	top: 0;
 	left: 0;
 	z-index: -1;
-	background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/167792/mountains_copy.jpg") no-repeat center center;
+	background: url("img/home-banner.jpg") no-repeat center center;
 	background-size: cover;
 	-webkit-transform: scale(1.1);
 			transform: scale(1.1);
