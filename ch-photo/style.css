@@ -103,6 +103,7 @@ figure{
 	text-align: center;
 }
 figure img {
+	zoom: 1;
 	transition: zoom 1s 
 }
 figure img:hover {
