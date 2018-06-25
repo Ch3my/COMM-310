@@ -111,6 +111,9 @@ figure img:nth-child(2){
 footer {
 	padding: 20px;
 	background-color: #53C6C6;
+	color: white;
+	text-shadow: 2px 0px 4px rgba(150, 150, 150, 1);
+
 }
 
 
