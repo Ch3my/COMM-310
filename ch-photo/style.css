@@ -125,6 +125,7 @@ figure img:nth-child(2){
 }
 main {
 	max-width: 960px;
+	margin: 0 auto;	
 }
 /* -------------------------------------------------- */
 /* ---------            about              ----------- */
@@ -132,9 +133,7 @@ main {
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto;
-}
-.grid-element {
-
+	grid-column-gap: 20px;
 }
 /* -------------------------------------------------- */
 /* ---------            contact               ----------- */
