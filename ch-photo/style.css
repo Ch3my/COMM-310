@@ -62,7 +62,7 @@ nav img {
 	font-size: 1.4em;
 	/* other styles */
 }
-active{
+.active{
 	color: black;
 	font-size: 1.4em;
 }
@@ -86,9 +86,7 @@ active{
 	-webkit-transform: scale(1.1);
 			transform: scale(1.1);
   }
-  .bg-contact{
-	background: url("img/home-banner.jpg") no-repeat center center!important;
-  }
+
 .wrap span {
 	background-color: #ffe245;
 	padding: 20px;
@@ -133,11 +131,12 @@ form input{
 	display: block;
 	width: 100%;
 	padding:10px;
+	border-radius: 3px;
 }
 form .submit {
 	background-clip: #FFD46B;
 	padding: 10px;
-	width: 30px;
+	width: 100px;
 }
 
 
