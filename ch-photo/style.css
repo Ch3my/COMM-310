@@ -62,7 +62,7 @@ nav img {
 	font-size: 1.4em;
 	/* other styles */
 }
-.active{
+nav ul li a .active{
 	color: black;
 	font-size: 1.4em;
 }
