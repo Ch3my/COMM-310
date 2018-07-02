@@ -145,6 +145,10 @@ form .submit {
 label {
 	padding-top: 30px;
 }
+textarea {
+	width: 100%;
+	display: block
+}
 
 
 /* -------------------------------------------------- */
