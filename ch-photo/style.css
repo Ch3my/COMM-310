@@ -63,7 +63,8 @@ nav img {
 	/* other styles */
 }
 active{
-	
+	color: black;
+	font-size: 1.4em;
 }
 /* -------------------------------------------------- */
 /* --------- Headers: Portrait and home page ----------- */
@@ -121,6 +122,24 @@ figure img:hover {
 figure img:nth-child(2){
 	margin: 0 20px;
 }
+/* -------------------------------------------------- */
+/* ---------            contact               ----------- */
+/* -------------------------------------------------- */
+form {
+	max-width: 960px;
+}
+form input{
+	display: block;
+	width: 100%;
+	padding:10px;
+}
+form .submit {
+	background-clip: #FFD46B;
+	padding: 10px;
+	width: 30px;
+}
+
+
 /* -------------------------------------------------- */
 /* ---------            Footer               ----------- */
 /* -------------------------------------------------- */
