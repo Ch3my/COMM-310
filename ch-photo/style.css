@@ -20,6 +20,7 @@ h1,h2,h3,h4,h5,h6{
 /* Colors, style, floating, shapes, etc of main & secondary navs */
 
 /* Main Navigation Style */
+/* Here I used important to override the normal styles of nav*/
 .active{
 	color: black!important;
 	font-size: 1.4em!important;
@@ -121,6 +122,19 @@ figure img:hover {
 }
 figure img:nth-child(2){
 	margin: 0 20px;
+}
+main {
+	max-width: 960px;
+}
+/* -------------------------------------------------- */
+/* ---------            about              ----------- */
+/* -------------------------------------------------- */
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.grid-element {
+
 }
 /* -------------------------------------------------- */
 /* ---------            contact               ----------- */

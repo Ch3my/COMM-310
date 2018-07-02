@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home - Chemy Photography</title>
+    <title>About - Chemy Photography</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,39 +13,33 @@
             <img src="img/logo.jpg" alt="Logo">
         <ul>
             <li>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html">Home</a>
             </li>
             <li>
                 <a href="portraits.html">Portraits</a>
             </li>
             <li>
-                <a href="about.html">About</a>
+                <a href="about.html" class="active">About</a>
             </li>
             <li>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html" >Contact</a>
             </li>
         </ul>
     </nav>
     <header class="wrap">
-        <div class="bg-home"></div>
-        <span id="header-txt-1">Hello I'm Chemy</span>
+        <!-- This time I defined the background image directly on the HTML to override the css image of home, so the JS works with this img -->
+        <div class="bg-home bg-contact" style="background: url('img/about.jpg') no-repeat center center"></div>
+        <span id="header-txt-1">Contact me for further information</span>
         <br>
-        <span id="header-txt-2">I'm a portrait Photographer</span>
+        <span id="header-txt-2">I'm happy to help</span>
     </header>
     <main>
-        <article>
-            <p class="overlock">I'M A CASUAL STREET PHOTOGRAPHER IN LOVE WITH PORTRAITS</p>
-            <p class="overlock">I'm a picture taker because I realize that some moments I want to keep forever, 
-               for myself and for others 
-            </p>
-            <p>To keep up to date with my work follow me on onstagram @ch3my</p>
+        <article class="grid-container">
+            <section>
+                <img src="img/about-1.jpg" alt="A portrait of me">
+            </section>
+            <section>Text</section>
         </article>
-        <figure>
-            <img src="img/home-1.jpg" alt="">
-            <img src="img/home-2.jpg" alt="">
-            <img src="img/home-3.jpg" alt="">
-        </figure>
-
     </main>
     <footer>
         <div class="section group">
