@@ -127,6 +127,7 @@ figure img:nth-child(2){
 /* -------------------------------------------------- */
 form {
 	max-width: 960px;
+	margin: 0 auto;
 }
 form input{
 	display: block;
