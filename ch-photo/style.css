@@ -106,7 +106,7 @@ nav img {
 	top:215px;
 }
 article {
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 	padding: 50px 0;
 }
@@ -127,6 +127,10 @@ figure img:nth-child(2){
 main {
 	max-width: 960px;
 	margin: 0 auto;	
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
 }
 /* -------------------------------------------------- */
 /* ---------            about              ----------- */
@@ -185,7 +189,7 @@ footer a {
 footer a:link{
 	color: white;
 	text-decoration:none;
-	margin: 0 20px;
+	margin: 0 10px;
 	font-size: 1em;
 	transition: font-size .5s;
 	/* other styles */
